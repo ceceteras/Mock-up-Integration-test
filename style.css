@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #f7f7f7;
+}
+
+.margin-zero {
+    margin: 0
+}
+
+header .row {
+    padding: 0;
+    margin: 0;
+}
+
+.left-header-title-top-text {
+    font-size: 13px;
+    letter-spacing: 2;
+}
+
+.left-header-title {
+    float: right;
+    padding-top: 20px;
+    letter-spacing: 5px;
+    text-align: right;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.mid-title {
+    letter-spacing: 0;
+    font-size: 24px;
+    margin: 0;
+    padding: 12px 0px 3px 0px;
+}
+
+.logo {
+    width: 30%
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
+.header-right {
+    width: 50%;
+    height: 150px;
+    margin-left: 20px;
+    padding-top: 21px;
+}
+
+.bottom-right-bar {
+    margin-top: 42px;
+    font-size: 15px;
+    letter-spacing: 7px;
+    width: fit-content;
+    font-style: italic;
+    padding: 5px 14px;
+    background-color: #5ab7e4;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.header-left {
+    width: 45%;
+    height: 150px;
+}
+
+.top-right-img {
+    width: 15%;
+}
+
+.header-list ul {
+    border-bottom: 1px solid #ccc;
+    display: inline-flex;
+}
+
+.header-list ul li {
+    list-style-type: none;
+    background: none;
+}
+
+.hero {
+    height: 400px;
+    background-image: url(img/photo-bandeau.jpg);
+    background-repeat: no-repeat;
+    background-position: 18% 100%;
+    text-align: center;
+    width: 100%;
+
+}
+
+.hero-child {
+    background-color: #000;
+    opacity: 0.86;
+    height: 200px;
+    width: 75%;
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 50px 0px;
+
+}
+
+.hero-title {
+    padding: 20px 0px;
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+}
+
+.hero-form {
+    display: inline-flex;
+}
+
+.field-div {
+    text-align: left;
+    padding: 10px 15px 12px 30px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+
+.hero-formfield {
+    padding: 7px 7px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    margin: 8px 0px;
+}
+
+.button {
+    background: #e07418;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.body-left-main {
+    width: 65%;
+    height: 320px;
+    margin-right: 25px;
+}
+
+.body-left {
+    width: 30%;
+    margin-right: 25px;
+
+}
+
+.body-mid {
+    width: 60%;
+    height: 320px;
+}
+
+.body-left-img {
+    padding-right: 15px;
+    width: 50%;
+}
+
+
+.body-right-main {
+    width: 35%;
+    text-align: center;
+}
+
+.body-right-mid {
+    background: #ffffff;
+    padding: 22px 0px;
+    margin: 16px 5px;
+}
+
+.row {
+    padding: 50px 10px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.full-image {
+    width: 100%;
+}
+
+.orange-bar {
+    background: #e07418;
+    color: #ffffff;
+    padding: 12px 40px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.body-text-desc {
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li {
+    list-style-type: square;
+    background: #dedede38;
+    margin: 8px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: left;
+    list-style-position: inside;
+    padding: 2px 5px;
+    width: fit-content;
+}
+
+.body-right-header {
+    font-size: 15px;
+    font-weight: 100 !important;
+    text-align: left;
+    padding: 5px 15px;
+}
+
+.body-right-img {
+    width: 60%;
+    padding: 20px 10px;
+}
+
+.img-text {
+    line-height: 1.5;
+    letter-spacing: .51px;
+    height: 360px;
+}
+
+.sub-img-text {
+    font-size: 12px;
+}
+
+.sub-text {
+    font-size: 12px;
+    color: #5ab7e4;
+    font-weight: bold;
+}
+
+.blue-bold-text {
+    background-color: #5ab7e4;
+    padding: 6px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.grey-bold-text {
+    background-color: #ccc;
+    padding: 6px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 11px;
+}
+.list ul {
+    list-style-type: circle;
+    color: #5ab7e4;
+    padding: 0;
+}
+
+.list ul li {
+    list-style-type: square;
+    margin-left: 22px !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+    list-style-position: inside;
+    padding: 0px 5px !important;
+    width: fit-content;
+    background: none;
+    margin: 0;
+}
+
+footer {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.text-margin {
+    margin-right: 100px;
+}
+
+footer .row {
+    padding: 0;
+}
+
